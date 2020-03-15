@@ -1,0 +1,35 @@
+{
+  "name": "@dadoudidou/react-mod",
+  "version": "0.0.1",
+  "description": "Modular react Library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "start": "tsc --watch",
+    "build": "tsc"
+  },
+  "keywords": [
+    "react",
+    "modular"
+  ],
+  "author": "Dadoudidou",
+  "license": "MIT",
+  "dependencies": {
+    "reflect-metadata": "0.1.13",
+    "tsyringe": "4.1.0",
+    "@dadoudidou/liteevent": "0.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "12.12.2",
+    "@types/react": "16.8.24",
+    "@types/react-redux": "7.1.7",
+    "redux": "4.0.5",
+    "typescript": "3.4.3"
+  },
+  "peerDependencies": {
+    "react": "16.13.0",
+    "redux": "4.0.5",
+    "react-redux": "7.2.0"
+  }
+}

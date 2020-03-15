@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "CommonJS",
+        "declaration": true,
+        "outDir": "dist",
+        "strict": false,
+        "esModuleInterop": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "removeComments": true,
+        "sourceMap": true,
+        "baseUrl": "./",
+        "incremental": true,
+        "skipLibCheck": true,
+        "allowJs": false,
+        "tsBuildInfoFile": ".tsbuildinfo"
+    },
+    "exclude": [
+        "dist",
+        "node_modules"
+    ]
+}

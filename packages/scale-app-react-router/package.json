@@ -1,0 +1,31 @@
+{
+  "name": "@dadoudidou/scale-app-react-router",
+  "version": "0.0.1",
+  "description": "Modular Library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "start": "rollup -c -w",
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "modular"
+  ],
+  "author": "Dadoudidou",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/react": "16.9.23",
+    "@dadoudidou/scale-app": "0.0.1",
+    "@dadoudidou/scale-app-router": "0.0.1",
+    "@dadoudidou/scale-app-react": "0.0.1"
+  },
+  "peerDependencies": {
+    "react": "16.13.0",
+    "@dadoudidou/scale-app": "0.0.1",
+    "@dadoudidou/scale-app-router": "0.0.1",
+    "@dadoudidou/scale-app-react": "0.0.1"
+  }
+}

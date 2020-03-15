@@ -1,0 +1,30 @@
+{
+  "name": "@dadoudidou/scale-app",
+  "version": "0.0.1",
+  "description": "Modular Library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "rollup -c -w",
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "modular"
+  ],
+  "author": "Dadoudidou",
+  "license": "MIT",
+  "dependencies": {
+    "object-assign": "4.1.1",
+    "reflect-metadata": "0.1.13",
+    "tsyringe": "4.1.0",
+    "uuid": "^7.0.2",
+    "@dadoudidou/liteevent": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "16.8.24",
+    "@types/react-redux": "7.1.7",
+    "@types/uuid": "^7.0.0",
+    "redux": "4.0.5"
+  },
+  "peerDependencies": {}
+}
